@@ -1,0 +1,10 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+resources:
+- https://github.com/strimzi/strimzi-kafka-operator/releases/download/0.46.0/strimzi-crds-0.46.0.yaml
+
+commonLabels:
+  app.kubernetes.io/name: strimzi-operator
+  app.kubernetes.io/component: crds
+  managed-by: argocd
