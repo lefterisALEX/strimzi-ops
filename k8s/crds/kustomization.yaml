@@ -2,7 +2,7 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
 resources:
-- https://github.com/strimzi/strimzi-kafka-operator/releases/download/0.40.0/strimzi-crds-0.40.0.yaml
+- https://github.com/strimzi/strimzi-kafka-operator/releases/download/0.41.0/strimzi-crds-0.41.0.yaml
 
 commonLabels:
   app.kubernetes.io/name: strimzi-operator
