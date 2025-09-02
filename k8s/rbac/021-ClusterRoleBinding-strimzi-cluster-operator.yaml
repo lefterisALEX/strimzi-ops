@@ -6,7 +6,7 @@ metadata:
   name: strimzi-cluster-operator
   labels:
     app: strimzi
-    chart: strimzi-kafka-operator-0.43.0
+    chart: strimzi-kafka-operator-0.44.0
     component: role-binding
     release: strimzi-rbac
     heritage: Helm
