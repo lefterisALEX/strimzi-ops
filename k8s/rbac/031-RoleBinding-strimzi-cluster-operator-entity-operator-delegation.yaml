@@ -7,7 +7,7 @@ metadata:
   namespace: strimzi
   labels:
     app: strimzi
-    chart: strimzi-kafka-operator-0.41.0
+    chart: strimzi-kafka-operator-0.43.0
     component: entity-operator-role-binding
     release: strimzi-rbac
     heritage: Helm
