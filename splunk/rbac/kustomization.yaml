@@ -1,0 +1,4 @@
+# k8s/rbac/kustomization.yaml
+resources:
+  - ClusterRole.yaml
+  - ClusterRoleBinding.yaml
